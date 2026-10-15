@@ -1,0 +1,29 @@
+{
+  "name": "invoice-pdf-generator",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.62",
+    "@iconify-json/simple-icons": "^1.2.47",
+    "@nuxt/ui": "^3.3.0",
+    "jspdf": "^2.5.1",
+    "nuxt": "^4.0.3"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.8.0",
+    "eslint": "^9.33.0",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Browser-based quotation, invoice and receipt PDF generator built with Nuxt 4, Nuxt UI and jsPDF."
+}
